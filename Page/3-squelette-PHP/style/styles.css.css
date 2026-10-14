@@ -1,0 +1,111 @@
+.header-bar {
+    background-color: red;
+    color: black;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header-bar h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header-bar h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.cv-container {
+    position: relative; 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+
+.cv-container::before {
+    content: "";
+    position: absolute;
+    top: 0;               
+    left: 150;             
+    width: 450px;           
+    height: 100%;         /* toute la hauteur du container */
+    background-color: red;
+    z-index: 0;           /* derrière le contenu */
+}
+
+/* Pour que la photo et la colonne gauche soient au-dessus de la bande */
+.header-cv, .colonne-gauche {
+    position: relative;
+    z-index: 1;
+}
+.colonne-droite {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+.colonne-gauche {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+body {
+    background-color: orange;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-cv {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    width: 1200px;      
+    gap: 40px;
+}
+
+
+.photo-profil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    position: fixed;
+    top :50;
+    height: 100;
+}
+
+
+.entete-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: black;
+}
+
+.entete-cv h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.entete-cv h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}

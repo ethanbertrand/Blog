@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+/* --- Style général --- */
+body {
+    background-color: orange;
+    color: #181616;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Classes de body selon la page */
+body.accueil { font-size: 1em; }
+body.autre   { font-size: 0.9em; }
+
+header {
+    font-family: cursive;
+    color: #1b1b19;
+    font-weight: 60;
+    font-style: oblique;
+    text-align: left;
+    padding: 0;
+}
+
+header img {
+    float: right;
+    padding: 7px;
+}
+
+.image1 {
+    width: 300px;
+    height: 200px;
+}
+
+/* --- Taille du texte selon l’écran --- */
+@media screen and (min-width: 1200px) {
+    header { font-size: 2.8em; }
+}
+@media screen and (max-width: 1200px) {
+    header { font-size: 2em; }
+}
+
+/* --- Navigation --- */
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    nav {
+        background-color: white;
+        border: 2px solid rgb(230, 60, 8);
+        border-radius: 30px;
+        margin: 35px;
+        padding: 5px 10px;
+    }
+
+    nav a {
+        font-family: "Times New Roman", Georgia, serif;
+        font-size: 1.3em;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-style: oblique;
+        margin: 0 1.5%;
+        transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+        text-shadow: 1px 1px 0px black;
+        color: rgb(230, 60, 8);
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 1200px) {
+    nav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgba(112, 128, 144, 0.95);
+        overflow-x: hidden;
+        transition: width 0.5s ease;
+        padding-top: 60px;
+    }
+
+    nav a {
+        display: block;
+        font-size: 1.4em;
+        color: black;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        color: rgb(230, 60, 8);
+    }
+
+    nav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+}
+
+/* Sections */
+section h1 {
+    font-family: "Learning Curve", cursive;
+    padding: 5px;
+    border-left: 5px solid blue;
+    border-bottom: 2px solid navy;
+}
+
+@media screen and (min-width: 1200px) {
+    section h1 { font-size: 2.2em; }
+}
+@media screen and (max-width: 1200px) {
+    section h1 { font-size: 1.6em; }
+}
+
+/* Footer */
+footer p {
+    font-family: "Times New Roman", Georgia, serif;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+@media screen and (min-width: 1200px) {
+    footer p { font-size: 1em; }
+}
+@media screen and (max-width: 1200px) {
+    footer p { font-size: 0.8em; }
+}
+
+/* Header bar */
+.header-bar {
+    background-color: rgb(230, 60, 8);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header-bar h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+.header-bar h2 {
+    margin: 0;
+    font-size: 1.4em;
+}
+
+/* --- CV Container --- */
+.cv-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px auto;
+    position: relative;
+    background-color: transparent; /* Fond transparent pour laisser voir l’orange du body */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Bande rouge colonne gauche */
+.cv-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajustable selon ton design */
+    height: 300%; /* Toute la hauteur du container */
+    background-color: rgb(230, 60, 8);
+    z-index: 0;
+}
+
+/* Colonnes */
+.colonne-gauche, .colonne-droite {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.colonne-gauche { color: white; }
+.colonne-droite { color: black; }
+
+/* Photo profil */
+.photo-profil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Entête CV */
+.header-cv {
+    background-color: rgb(230, 60, 8);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+.entete-cv {
+    flex: 1;
+    color: black;
+}
+
+.entete-cv h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.entete-cv h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* Hamburger pour mobile */
+@media screen and (min-width: 1200px) {
+    .hamburger { display: none; }
+}
+@media screen and (max-width: 1200px) {
+    .pc { display: none; }
+}
+
+/* --- Responsive CV --- */
+@media screen and (max-width: 900px) {
+    .cv-container {
+        flex-direction: column;
+    }
+
+    .cv-container::before {
+        width: 100%;
+        height: 200px; /* Bande rouge en haut sur mobile */
+    }
+
+    .colonne-gauche {
+        padding-top: 220px; /* Laisser la bande rouge visible */
+        text-align: center;
+    }
+
+    .colonne-droite {
+        padding: 20px;
+    }
+}
