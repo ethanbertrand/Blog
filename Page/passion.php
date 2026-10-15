@@ -23,8 +23,13 @@
                 
                 </a>
             </div>
-            <h3 class="alinea">En plus de ça, passionné par les cols de montagne, j'ai pu en gravir plusieurs, poru les voir c'est ici :</h3>
-            
+            <h3 class="alinea">En plus de ça, passionné par les cols de montagne, j'ai pu en gravir plusieurs.</h3>
+            <div class="strava-ligne">
+                <p><b>Pour en savoir plus,c'est ici :</b></p>
+                <a href="index.php?page=cols" class="bouton-url">
+                    Les cols
+                </a>
+            </div> 
         </div>
 
         

@@ -63,7 +63,37 @@
                     Explorez mes réalisations, mes nouveaux acquis
                     et mon évolution durant la deuxième année.
                 </p>
+                <span class="carte-lien">Voir les projets ↗</span>
+            </a>
+
+            <a href="index.php?page=stage" class="accueil-carte">
+                <div class="carte-icone">𖤐</div>
+                <span class="carte-numero">04 / Stages</span>
+                <h3>Stages</h3>
+                <p>
+                    Explorez mes expériences professionnelles dans l'informatique.
+                </p>
                 <span class="carte-lien">Explorer ↗</span>
+            </a>
+
+            <a href="index.php?page=experience" class="accueil-carte">
+                <div class="carte-icone">💼</div>
+                <span class="carte-numero">05 / Expériences professionnelles</span>
+                <h3>Expériences professionnelles</h3>
+                <p>
+                    Explorez mes expériences professionnelles volontaires.
+                </p>
+                <span class="carte-lien">Explorer ↗</span>
+            </a>
+
+            <a href="index.php?page=passion" class="accueil-carte">
+                <div class="carte-icone">❤️</div>
+                <span class="carte-numero">06 / Mes autres passions</span>
+                <h3>Passions</h3>
+                <p>
+                    Découvrez mes passions en dehors du monde professionnel.
+                </p>
+                <span class="carte-lien">Découvrir ↗</span>
             </a>
             
         </div>
@@ -71,17 +101,18 @@
 
     <div class="accueil-labyrinthe">
         <div class="labyrinthe-texte">
-            <span class="petit-titre">MES AUTRES PASSIONS </span>
-            <h2>Envie de découvrir mes autres passions ?</h2>
+            <span class="petit-titre"> Linkedin</span>
+            <h2>Envie d'en découvrir encore plus sur moi ? </h2>
             <p>
-                Clique sur le bouton si t'es curieux de savoir d'autres plaisirs personnels de la vie
+                Va alors regarder mon Linkedin !
             </p>
         </div>
-
-        <a href="index.php?page=passion" class="accueil-btn">
-            Découvrir mes autres passions <span>→</span>
+        
+        <a href="https://www.linkedin.com/in/ethan-bertrand-015606358/?isSelfProfile=true"target="_blank" rel="noopener noreferrer"class="bouton-url">
+            Mon Linkedin <span>→</span>
         </a>
+        
     </div>
 
+    
 </section>
-```

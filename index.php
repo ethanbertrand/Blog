@@ -20,6 +20,8 @@ $page = $_GET['page'] ?? 'accueil';
             <li><a href="index.php?page=page0">CV </a></li>
             <li><a href="index.php?page=premiereannee">Projets de première année</a></li>
             <li><a href="index.php?page=deuxiemeannee">Projets de deuxième année</a></li>
+            <li><a href="index.php?page=stage">Stages réalisés</a></li>
+            <li><a href="index.php?page=experience">Expériences professionnelles</a></li>
             <li><a href="index.php?page=passion"> Mes autres passions</a></li>
         </ul>
     </nav>
@@ -50,6 +52,15 @@ $page = $_GET['page'] ?? 'accueil';
                 break;
             case 'passion':
                 include 'page/passion.php';
+                break;
+            case 'cols':
+                include 'Page/col.php';
+                break;
+            case 'experience':
+                include 'Page/experience.php';
+                break;
+            case 'stage':
+                include 'page/stage.php';
                 break;
             case 'accueil':
             default:

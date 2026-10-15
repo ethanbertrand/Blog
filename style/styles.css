@@ -974,3 +974,34 @@ p {
     max-width: 100%;
     height: auto;
 }
+
+.bouton-centre {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 13px 28px;
+
+    background: linear-gradient(135deg, #168cff, #8b5cf6);
+    color: #ffffff;
+
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(22, 140, 255, 0.25);
+
+    transition: all 0.3s ease;
+}
+
+.bouton-centre:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.45);
+    background: linear-gradient(135deg, #36a5ff, #a78bfa);
+}
+
+.bouton-centre:active {
+    transform: translateY(-1px);
+}

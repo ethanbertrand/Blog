@@ -1,7 +1,7 @@
 
 <div class="cv-bouton-container">
    <img src="image/cv.png"
-             alt="Image de présentation"
+         alt="Image de présentation"
              class="image-contenu">
     
 </div>
@@ -10,7 +10,7 @@
    
 
          <a href="image/cv.pdf"
-            class="btn"
+            class="bouton-centre"
             download>
                Télécharger mon CV
          </a>
