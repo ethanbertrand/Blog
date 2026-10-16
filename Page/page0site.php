@@ -1,15 +1,15 @@
 
-<div class="cv-bouton-container">
-   <img src="image/cv.png"
-         alt="Image de présentation"
-             class="image-contenu">
-    
-</div>
+<iframe
+        src="CV_Ethan_Bertrand (5).pdf"
+        width="100%"
+        height="1300"
+        style="border: none;">
+    </iframe>
 <br>
 <div class="centre">
    
 
-         <a href="image/cv.pdf"
+         <a href="CV_Ethan_Bertrand (5).pdf"
             class="bouton-centre"
             download>
                Télécharger mon CV

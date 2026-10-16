@@ -7,7 +7,7 @@ $page = $_GET['page'] ?? 'accueil';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Internet - Ethan Bertrand</title>
+    <title>Ethan BERTRAND - Etudiant en informatique</title>
     <link rel="stylesheet" href="style/styles.css">
 </head>
 
@@ -18,18 +18,18 @@ $page = $_GET['page'] ?? 'accueil';
         <ul>
             <li><a href="index.php?page=accueil">Accueil</a></li>
             <li><a href="index.php?page=page0">CV </a></li>
-            <li><a href="index.php?page=premiereannee">Projets de première année</a></li>
-            <li><a href="index.php?page=deuxiemeannee">Projets de deuxième année</a></li>
+            <li><a href="index.php?page=competences">Compétences</a></li>
+            <li><a href="index.php?page=premiereannee">Mes Projets</a></li>
             <li><a href="index.php?page=stage">Stages réalisés</a></li>
             <li><a href="index.php?page=experience">Expériences professionnelles</a></li>
-            <li><a href="index.php?page=passion"> Mes autres passions</a></li>
+            <li><a href="index.php?page=passion"> Mes autres centres d'intérêt</a></li>
         </ul>
     </nav>
 
     <!-- HEADER -->
     <header class="header-cv">
         <div class="header-inner">
-            <img src="photo.png" alt="Photo de profil" class="photo-profil">
+            <img src="photo1.png" alt="Photo de profil" class="photo-profil">
             <div class="entete-cv">
                 <h1>Bertrand<br>Ethan</h1>
                 <h2>Étudiant</h2>
@@ -42,16 +42,13 @@ $page = $_GET['page'] ?? 'accueil';
         <?php
         switch ($page) {
             case 'page0':
-                include 'page/page0site.php';
-                break;
-            case 'premiereannee':
-                include 'page/premiereannee.php';
+                include 'Page/page0site.php';
                 break;
             case 'deuxiemeannee':
-                include 'page/deuxiemeannee.php';
+                include 'Page/deuxiemeannee.php';
                 break;
             case 'passion':
-                include 'page/passion.php';
+                include 'Page/passion.php';
                 break;
             case 'cols':
                 include 'Page/col.php';
@@ -60,11 +57,17 @@ $page = $_GET['page'] ?? 'accueil';
                 include 'Page/experience.php';
                 break;
             case 'stage':
-                include 'page/stage.php';
+                include 'Page/stage.php';
+                break;
+            case 'competences':
+                include 'Page/competences.php';
+                break;
+            case 'skills':
+                include 'Page/skills.php';
                 break;
             case 'accueil':
             default:
-                include 'page/accueil.php';
+                include 'Page/accueil.php';
                 break;
             
         }

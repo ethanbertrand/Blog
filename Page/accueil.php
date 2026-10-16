@@ -81,17 +81,17 @@
                 <span class="carte-numero">05 / Expériences professionnelles</span>
                 <h3>Expériences professionnelles</h3>
                 <p>
-                    Explorez mes expériences professionnelles volontaires.
+                    Découvrez expériences volontaires dans le monde du travail
                 </p>
                 <span class="carte-lien">Explorer ↗</span>
             </a>
 
             <a href="index.php?page=passion" class="accueil-carte">
                 <div class="carte-icone">❤️</div>
-                <span class="carte-numero">06 / Mes autres passions</span>
-                <h3>Passions</h3>
+                <span class="carte-numero">06 / Mes autres centres d'intérêts</span>
+                <h3>Centres d'intérêts</h3>
                 <p>
-                    Découvrez mes passions en dehors du monde professionnel.
+                    Découvrez mes centres d'intérêt en dehors du monde professionnel.
                 </p>
                 <span class="carte-lien">Découvrir ↗</span>
             </a>
