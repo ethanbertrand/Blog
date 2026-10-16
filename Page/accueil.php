@@ -46,24 +46,23 @@
 
             <a href="index.php?page=premiereannee" class="accueil-carte">
                 <div class="carte-icone">⌘</div>
-                <span class="carte-numero">02 / RÉALISATIONS</span>
-                <h3>Projets de première année</h3>
+                <span class="carte-numero">02 / ACQUIS</span>
+                <h3>Compétences</h3>
                 <p>
-                    Retrouvez les travaux réalisés et les compétences
-                    développées au cours de ma première année de BTS.
+                    Retrouvez toutes les compétences que j'ai acquise depuis le début de mes études.
                 </p>
-                <span class="carte-lien">Voir les projets ↗</span>
+                <span class="carte-lien">Voir mes compétences ↗</span>
             </a>
 
-            <a href="index.php?page=deuxiemeannee" class="accueil-carte">
+            <a href="index.php?page=projet" class="accueil-carte">
                 <div class="carte-icone">✧</div>
-                <span class="carte-numero">03 / ÉVOLUTION</span>
-                <h3>Projets de deuxième année</h3>
+                <span class="carte-numero">03 / RÉALISATIONS</span>
+                <h3>Projets réalisés</h3>
                 <p>
                     Explorez mes réalisations, mes nouveaux acquis
-                    et mon évolution durant la deuxième année.
+                    et mon évolution durant mes deux années de BTS.
                 </p>
-                <span class="carte-lien">Voir les projets ↗</span>
+                <span class="carte-lien">Voir mes projets ↗</span>
             </a>
 
             <a href="index.php?page=stage" class="accueil-carte">

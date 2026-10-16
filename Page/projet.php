@@ -1,14 +1,16 @@
+
+
+
 <!doctype html>
 <html lang="fr">
 <head>
    <meta charset="utf-8">
-   <title> Mes projets</title>
+   <title> Mes expériences professionnelles</title>
    <!--Link to the externat CSS file-->
    <link rel = "stylesheet"  href="style/styles.css"> 
 
 <h1> Durant mes deux années de BTS, j'ai pu réaliser 4 projets en classe.</h1>
 <h3><b>Les voici : </b></h3>
-
 
 <div class="accueil-labyrinthe">
     <div class="labyrinthe-texte">
@@ -62,8 +64,3 @@
         </div>
     </div>
 </div>
-
-
-
-
-
