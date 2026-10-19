@@ -21,6 +21,7 @@
     --shadow: 0 12px 35px rgba(0, 0, 0, 0.22);
 }
 
+
 /* RESET */
 
 * {
@@ -1293,3 +1294,4 @@ p {
     display: inline-block;
     margin-top: 20px;
 }
+

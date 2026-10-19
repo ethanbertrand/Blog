@@ -114,3 +114,131 @@
 
     
 </section>
+<hr>
+
+<h1 class="bouton-centre">Une petite envie de jouer ?</h1>
+
+<style>
+.mini-pfc {
+    width: 30cm;
+    height: 10cm;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #6d5dfc;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.mini-pfc h2 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.mini-pfc .pfc-choix {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.mini-pfc button {
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #6d5dfc;
+    border-radius: 8px;
+    background: transparent;
+    color: inherit;
+    font-size: 12px;
+}
+
+.mini-pfc .pfc-choix button {
+    font-size: 23px;
+    padding: 8px 10px;
+}
+
+.mini-pfc button:hover {
+    background: #6d5dfc;
+    color: white;
+}
+
+.mini-pfc p {
+    font-size: 12px;
+    margin: 0;
+}
+
+@media (max-width: 380px) {
+    .mini-pfc {
+        width: 100%;
+        height: 10cm;
+    }
+}
+</style>
+
+<div class="mini-pfc">
+    <h2>✊ Pierre, feuille, ciseaux</h2>
+
+    <p>Choisis ton coup !</p>
+
+    <div class="pfc-choix">
+        <button onclick="jouerPFC('Pierre')" aria-label="Pierre">✊</button>
+        <button onclick="jouerPFC('Feuille')" aria-label="Feuille">✋</button>
+        <button onclick="jouerPFC('Ciseaux')" aria-label="Ciseaux">✌️</button>
+    </div>
+
+    <p id="pfc-resultat" aria-live="polite">À toi de jouer !</p>
+    <p>Toi : <strong id="pfc-joueur">0</strong> — Bot : <strong id="pfc-bot">0</strong></p>
+
+    <button onclick="resetPFC()">↻ Recommencer</button>
+</div>
+
+<script>
+(function () {
+    let joueur = 0;
+    let bot = 0;
+
+    window.jouerPFC = function (choix) {
+        const options = ["Pierre", "Feuille", "Ciseaux"];
+        const adversaire = options[Math.floor(Math.random() * 3)];
+
+        let resultat;
+
+        if (choix === adversaire) {
+            resultat = "Égalité ! 🤝";
+        } else if (
+            (choix === "Pierre" && adversaire === "Ciseaux") ||
+            (choix === "Feuille" && adversaire === "Pierre") ||
+            (choix === "Ciseaux" && adversaire === "Feuille")
+        ) {
+            joueur++;
+            resultat = "Tu gagnes ! 🎉";
+        } else {
+            bot++;
+            resultat = "Le bot gagne ! 🤖";
+        }
+
+        document.getElementById("pfc-resultat").textContent =
+            choix + " contre " + adversaire + " — " + resultat;
+
+        document.getElementById("pfc-joueur").textContent = joueur;
+        document.getElementById("pfc-bot").textContent = bot;
+    };
+
+    window.resetPFC = function () {
+        joueur = 0;
+        bot = 0;
+        document.getElementById("pfc-joueur").textContent = "0";
+        document.getElementById("pfc-bot").textContent = "0";
+        document.getElementById("pfc-resultat").textContent =
+            "À toi de jouer !";
+    };
+})();
+</script>
+
