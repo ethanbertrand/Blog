@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <title> Mes expériences professionnelles</title>
    <!--Link to the externat CSS file-->
-   <link rel = "stylesheet"  href="style/styles.css"> 
+   <link rel="stylesheet" href="style/styles.css?v=3"> 
 
 <h1>Durant mon parcours professionnel,j'ai pu réaliser plusieurs expériences professionnelles !</h1>
 <h2>Je vous laisse le plaisir de les découvrir :</h2>

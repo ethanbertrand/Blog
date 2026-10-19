@@ -57,7 +57,7 @@ body {
 /* NAVIGATION */
 
 .navbar {
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 100;
     width: 100%;
@@ -959,7 +959,7 @@ p {
 }
 
 .image-contenu {
-    width: 250px;
+    width: 300px;
     max-width: 100%;
     height: auto;
     display: block;
@@ -1241,4 +1241,55 @@ p {
         padding: 11px 16px;
         font-size: 14px;
     }
+}
+
+
+.image-passion {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+
+.presentation-cv {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.texte-presentation p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+    text-align: justify;
+}
+
+.cv-container {
+    width: 100%;
+    max-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cv-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.cv-image:hover {
+    transform: scale(1.02);
+}
+
+.cv-container .bouton-centre {
+    display: inline-block;
+    margin-top: 20px;
 }

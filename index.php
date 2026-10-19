@@ -8,7 +8,7 @@ $page = $_GET['page'] ?? 'accueil';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan BERTRAND - Etudiant en informatique</title>
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/styles.css?v=3">
 </head>
 
 <body class="<?= htmlspecialchars($page) ?>">
@@ -17,7 +17,7 @@ $page = $_GET['page'] ?? 'accueil';
     <nav class="navbar">
         <ul>
             <li><a href="index.php?page=accueil">Accueil</a></li>
-            <li><a href="index.php?page=page0">CV </a></li>
+            <li><a href="index.php?page=page0">À propos </a></li>
             <li><a href="index.php?page=competences">Compétences</a></li>
             <li><a href="index.php?page=projet">Mes Projets</a></li>
             <li><a href="index.php?page=stage">Stages réalisés</a></li>
@@ -29,7 +29,7 @@ $page = $_GET['page'] ?? 'accueil';
     <!-- HEADER -->
     <header class="header-cv">
         <div class="header-inner">
-            <img src="photo1.png" alt="Photo de profil" class="photo-profil">
+            <img src="image.png" alt="Photo de profil" class="photo-profil">
             <div class="entete-cv">
                 <h1>Bertrand<br>Ethan</h1>
                 <h2>Étudiant</h2>
@@ -46,6 +46,9 @@ $page = $_GET['page'] ?? 'accueil';
                 break;
             case 'projet':
                 include 'Page/projet.php';
+                break;
+            case 'jeux':
+                include 'Page/jeux.php';
                 break;
             case 'passion':
                 include 'Page/passion.php';

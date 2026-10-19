@@ -1,13 +1,10 @@
-
-
-
 <!doctype html>
 <html lang="fr">
 <head>
    <meta charset="utf-8">
    <title> Mes expériences professionnelles</title>
    <!--Link to the externat CSS file-->
-   <link rel = "stylesheet"  href="style/styles.css"> 
+   <link rel="stylesheet" href="style/styles.css?v=3"> 
 
 <h1> Durant mes deux années de BTS, j'ai pu réaliser 4 projets en classe.</h1>
 <h3><b>Les voici : </b></h3>
@@ -17,6 +14,8 @@
         <span class="petit-titre">Labyrinthe (Web) </span>
         <h3 class="alinea">Tu es bloqué dans un labyrinthe web, à toi de trouver la sortie !
         </h3>
+        <img src="image/cadre.png" alt="Image de présentation" class="image-contenu">
+        <img src="image/plan.png" alt="Image de présentation" class="image-contenu">
         <div class="strava-ligne">
            <p><b>GitHub du projet :</b></p>
             <a href="https://github.com/ethanbertrand/Labyrinthe"target="_blank" rel="noopener noreferrer"class="bouton-url">
@@ -30,6 +29,8 @@
         <span class="petit-titre">Histoire dont tu es le Héros (Web)</span>
         <h3 class="alinea">Tu veux rejoindre une équipe professionnelle de cyclisme, montre tes compétences en montant un vélo d'une équie professionnelle !
         </h3>
+        <img src="image/etape.png" alt="Image de présentation" class="image-contenu">
+        <img src="image/inventaire.png" alt="Image de présentation" class="image-contenu">
         <div class="strava-ligne">
            <p><b>GitHub du projet :</b></p>
             <a href="https://github.com/ethanbertrand/Histoire-dont-vous-tes-le-h-ro"target="_blank" rel="noopener noreferrer"class="bouton-url">
@@ -43,6 +44,7 @@
         <span class="petit-titre">Eure-et-Loir Fromage (C#)</span>
         <h3 class="alinea">La Fromagerie Eure-et-Loir Fromage a besoin d'un site de gestion du magasin, il est actuellement en cours de production.
         </h3>
+        <img src="image/logo.png" alt="Image de présentation" class="image-contenu">
         <div class="strava-ligne">
            <p><b>GitHub du projet :</b></p>
             <a href="https://github.com/ethanbertrand/Fromagerie"target="_blank" rel="noopener noreferrer"class="bouton-url">

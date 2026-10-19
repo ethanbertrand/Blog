@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <title> Mes projets</title>
    <!--Link to the externat CSS file-->
-   <link rel = "stylesheet"  href="style/styles.css"> 
+   <link rel="stylesheet" href="style/styles.css?v=3"> 
    <nav class="navbar1">
         <ul>
             <li><a href="index.php?page=competences">Programmation</a></li>

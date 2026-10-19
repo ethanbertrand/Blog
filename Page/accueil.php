@@ -8,15 +8,15 @@
 
         <h1>
             Bienvenue sur mon<br>
-            <span class="texte-gradient">site internet.</span>
+            <span class="texte-gradient">Portefolio !</span>
         </h1>
 
         <p class="accueil-description">
             Bonjour, je m'appelle <strong>Ethan BERTRAND</strong>.
             Je suis étudiant en <strong>BTS Services Informatiques
             aux Organisations</strong> et je vous présente ici mon
-            parcours, mes compétences et les projets réalisés
-            durant ma formation.
+            parcours, mes compétences,mes projets réalisés
+            durant ma formation et plein d'autre.
         </p>
 
         
@@ -28,7 +28,6 @@
                 <span class="petit-titre">DÉCOUVREZ MON TRAVAIL</span>
                 <h2>Explorez mon univers</h2>
             </div>
-            <p>Formation · Compétences · Réalisations</p>
         </div>
 
         <div class="accueil-grille">
@@ -44,7 +43,7 @@
                 <span class="carte-lien">Consulter mon CV ↗</span>
             </a>
 
-            <a href="index.php?page=premiereannee" class="accueil-carte">
+            <a href="index.php?page=competences" class="accueil-carte">
                 <div class="carte-icone">⌘</div>
                 <span class="carte-numero">02 / ACQUIS</span>
                 <h3>Compétences</h3>

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes cols</title>
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="style/styles.css?v=3">
 </head>
 <body>
 
@@ -168,8 +168,8 @@
         </div>
     </div>
     <br>
-    <a href="index.php?page=passion"target="_blank" rel="noopener noreferrer"class="bouton-url">
-       ⬅ Retour à mes passions
+    <a href="index.php?page=passion" rel="noopener noreferrer"class="bouton-url">
+       ⬅ Retour à mes autres centres d'intérêt
     </a>
 </body>
 </html>
