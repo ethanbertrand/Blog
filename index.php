@@ -8,6 +8,11 @@ $page = $_GET['page'] ?? 'accueil';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan BERTRAND - Etudiant en informatique</title>
+
+    <!-- Icône de l'onglet du navigateur -->
+    <link rel="icon" type="image/png" href="limage.png?v=2">
+
+    <!-- Feuille de style -->
     <link rel="stylesheet" href="style/styles.css?v=3">
 </head>
 
@@ -23,13 +28,14 @@ $page = $_GET['page'] ?? 'accueil';
             <li><a href="index.php?page=stage">Stages réalisés</a></li>
             <li><a href="index.php?page=experience">Expériences professionnelles</a></li>
             <li><a href="index.php?page=passion"> Mes autres centres d'intérêt</a></li>
+            <li><a href="index.php?page=programme">BTS SIO</a></li>
         </ul>
     </nav>
 
     <!-- HEADER -->
     <header class="header-cv">
         <div class="header-inner">
-            <img src="image.png" alt="Photo de profil" class="photo-profil">
+            <img src="limage.png" alt="Photo de profil" class="photo-profil">
             <div class="entete-cv">
                 <h1>Bertrand<br>Ethan</h1>
                 <h2>Étudiant</h2>
@@ -67,6 +73,9 @@ $page = $_GET['page'] ?? 'accueil';
                 break;
             case 'skills':
                 include 'Page/skills.php';
+                break;
+            case 'programme':
+                include 'Page/programme.php';
                 break;
             case 'accueil':
             default:

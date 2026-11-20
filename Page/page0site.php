@@ -27,23 +27,26 @@
     </h3>
 
    
+    
     <div class="cv-container">
-        <a href="CV_Ethan_BERTRAND%20(3).png"
+
+        <a href="cvimage.png"
         target="_blank"
         rel="noopener"
         title="Voir le CV en taille réelle">
 
             <img
-                src="CV_Ethan_BERTRAND%20(3).png"
+                src="cvimage.png"
                 alt="CV d'Ethan Bertrand"
                 class="cv-image">
         </a>
 
-        <a href="CV_Ethan_BERTRAND%20(3).png"
+        <a href="cv1.pdf"
         download
         class="bouton-centre">
             Télécharger mon CV
         </a>
+
     </div>
 
 

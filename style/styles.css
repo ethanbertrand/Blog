@@ -139,8 +139,8 @@ body {
 
 .photo-profil {
     display: block;
-    width: 145px;
-    height: 145px;
+    width: 190px;
+    height: 190px;
     flex: 0 0 auto;
     object-fit: cover;
     border: 3px solid transparent;

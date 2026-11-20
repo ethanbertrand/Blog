@@ -167,6 +167,172 @@
             </div>
         </div>
     </div>
+    <div class="accueil-labyrinthe">
+        <div class="labyrinthe-texte">
+            <div class="labyrinthe-texte">
+                <span class="petit-titre">Col des montets  </span>
+                <h3 class="alinea">Un col très irrégulier mais super sympa</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16917.8418953153!2d6.9122349204156235!3d46.000740756681864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478eb334243d8e0d%3A0x82e14cdb54de81be!2sCol%20des%20Montets!5e1!3m2!1sfr!2sfr!4v1794409850419!5m2!1sfr!2sfr" 
+                    width="100%"
+                    height="300"
+                    style="border:0; border-radius:10px;"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                    
+                </iframe>
+                <div class="strava-ligne">
+                    <p><b>Profil ascension :</b></p>
+                    <a href="https://climbfinder.com/fr/montees/col-des-montets-chamonix"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Col des montets
+                    </a>
+                    
+                </div>
+                <div class="strava-ligne">    
+                    <p><b>Mon strava de la sortie :</b></p>
+                    <a href="https://www.strava.com/activities/19187338200"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Mon strava de la montée
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accueil-labyrinthe">
+        <div class="labyrinthe-texte">
+            <div class="labyrinthe-texte">
+                <span class="petit-titre">Cote 2000 - Les Contamines Montjoie (Notre-Dame de la gorge)  </span>
+                <h3 class="alinea">2 très belles ascencions</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2121.2364201668897!2d6.643046075276748!3d45.830271971082205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789587c02b09bfd%3A0xa93418b7f4fe99ee!2zUnRlIGRlIGxhIEPDtHTDqSAyMDAwLCA3NDEyMCBNZWfDqHZl!5e1!3m2!1sfr!2sfr!4v1794411086084!5m2!1sfr!2sfr" 
+                    width="100%"
+                    height="300"
+                    style="border:0; border-radius:10px;"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                    
+                </iframe>
+                <div class="strava-ligne">
+                    <p><b>Profil ascension Cote 2000 :</b></p>
+                    <a href="https://climbfinder.com/fr/montees/altiport-megeve-megeve"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Cote 2000
+                    </a>
+                    
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16981.49798291397!2d6.694985374374069!3d45.79219159915534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47895957636743fd%3A0x9efab2bb22623a85!2sNotre%20Dame%20de%20la%20Gorge%2C%2074170%20Les%20Contamines-Montjoie!5e1!3m2!1sfr!2sfr!4v1794411135066!5m2!1sfr!2sfr" 
+                    width="100%"
+                    height="300"
+                    style="border:0; border-radius:10px;"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                    
+                </iframe>
+                <div class="strava-ligne">
+                    <p><b>Profil ascension Les Contamines :</b></p>
+                    <a href="https://climbfinder.com/fr/carte#climb=0b135e26-770c-449f-9f93-ad0839214d98&lnglat=6.7002/45.9052&position=11.12/45.8507/6.7381/84.6/60"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Les Contamines
+                    </a>
+                    
+                </div>
+                <div class="strava-ligne">    
+                    <p><b>Mon strava de la sortie :</b></p>
+                    <a href="https://www.strava.com/activities/19373792703"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Mon strava de la sortie
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accueil-labyrinthe">
+        <div class="labyrinthe-texte">
+            <div class="labyrinthe-texte">
+                <span class="petit-titre">Col de la Colombière  </span>
+                <h3 class="alinea">Dur dur ...</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16920.46465791849!2d6.454903375315481!3d45.99216259955793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478bf79f4c2a232b%3A0xd3bf58cb5797e619!2sCol%20de%20la%20Colombi%C3%A8re!5e1!3m2!1sfr!2sfr!4v1794411282344!5m2!1sfr!2sfr" 
+                    width="100%"
+                    height="300"
+                    style="border:0; border-radius:10px;"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                    
+                </iframe>
+                <div class="strava-ligne">
+                    <p><b>Profil ascension :</b></p>
+                    <a href="https://climbfinder.com/fr/montees/col-des-montets-chamonix"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Col de la Colombière
+                    </a>
+                    
+                </div>
+                <div class="strava-ligne">    
+                    <p><b>Mon strava de la sortie :</b></p>
+                    <a href="https://www.strava.com/activities/19497424448"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Mon strava de la montée
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accueil-labyrinthe">
+        <div class="labyrinthe-texte">
+            <div class="labyrinthe-texte">
+                <span class="petit-titre">Col des Saisies  </span>
+                <h3 class="alinea">Montée très irrégulières mais super sympa</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1785.956570610821!2d6.531985795206039!3d45.761069881780855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478be712d0a75455%3A0x45841c5b4bbe30de!2sCol%20des%20Saisies!5e1!3m2!1sfr!2sfr!4v1794411690546!5m2!1sfr!2sfr" 
+                    width="100%"
+                    height="300"
+                    style="border:0; border-radius:10px;"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                    
+                </iframe>
+                <div class="strava-ligne">
+                    <p><b>Profil ascension :</b></p>
+                    <a href="https://climbfinder.com/fr/montees/col-des-saisies-flumet"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Col des Saisies
+                    </a>
+                    
+                </div>
+                <div class="strava-ligne">    
+                    <p><b>Mon strava de la sortie :</b></p>
+                    <a href="https://www.strava.com/activities/19665948775"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Mon strava de la montée
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accueil-labyrinthe">
+        <div class="labyrinthe-texte">
+            <div class="labyrinthe-texte">
+                <span class="petit-titre">Col de la Ramaz  </span>
+                <h3 class="alinea">4 kilomètres à 9,5% ça fait mal ...</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16868.06256162695!2d6.554008276123744!3d46.16331759997412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c0525ee5d345d%3A0x8c2208aa17e46f6a!2sCol%20de%20la%20Ramaz!5e1!3m2!1sfr!2sfr!4v1794411855013!5m2!1sfr!2sfr" 
+                    width="100%"
+                    height="300"
+                    style="border:0; border-radius:10px;"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                    
+                </iframe>
+                <div class="strava-ligne">
+                    <p><b>Profil ascension :</b></p>
+                    <a href="https://climbfinder.com/fr/montees/col-de-la-ramaz-taninges"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Col de la Ramaz
+                    </a>
+                    
+                </div>
+                <div class="strava-ligne">    
+                    <p><b>Mon strava de la sortie :</b></p>
+                    <a href="https://www.strava.com/activities/19791667512"target="_blank" rel="noopener noreferrer"class="bouton-url">
+                    Mon strava de la montée
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <br>
     <a href="index.php?page=passion" rel="noopener noreferrer"class="bouton-url">
        ⬅ Retour à mes autres centres d'intérêt

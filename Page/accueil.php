@@ -18,8 +18,7 @@
             parcours, mes compétences,mes projets réalisés
             durant ma formation et plein d'autre.
         </p>
-
-        
+      
     </div>
 
     <div class="accueil-section-projets">
@@ -97,6 +96,20 @@
         </div>
     </div>
 
+    <div class="accueil-labyrinthe">
+        <div class="labyrinthe-texte">
+            <span class="petit-titre"> Programme BTS SIO</span>
+            <h2>Programme complet de BTS SIO spécialité SLAM </h2>
+            <p>
+                Actuellement en recherche de stage du 4 Janvier au 26 Février
+            </p>
+            
+        </div>
+        <a href="index.php?page=programme" rel="noopener noreferrer"class="bouton-url">
+            Programme <span>→</span>
+        </a>
+        
+    </div>
     <div class="accueil-labyrinthe">
         <div class="labyrinthe-texte">
             <span class="petit-titre"> Linkedin</span>
