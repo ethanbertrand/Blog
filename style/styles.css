@@ -1295,3 +1295,10 @@ p {
     margin-top: 20px;
 }
 
+.liste-pays {
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

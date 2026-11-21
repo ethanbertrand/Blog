@@ -5,7 +5,7 @@
    <title> Mes expériences professionnelles</title>
    <!--Link to the externat CSS file-->
    <link rel="stylesheet" href="style/styles.css?v=3"> 
-
+</head>
 <h1> Durant mes deux années de BTS, j'ai pu réaliser 4 projets en classe.</h1>
 <h3><b>Les voici : </b></h3>
 

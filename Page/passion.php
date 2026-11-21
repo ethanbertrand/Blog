@@ -5,7 +5,7 @@
    <title> Mes passions</title>
    <!--Link to the externat CSS file-->
    <link rel="stylesheet" href="style/styles.css?v=3">
-
+</head>
 <h1>Ma vie ne rythme pas qu'avec informatique mais aussi avec d'autres passions !</h1>
 <h2>Je vous laisse le plaisir de les découvrir :</h2>
 
@@ -65,9 +65,29 @@
         <img src="image/ski.png" alt="Image de présentation" class="image-contenu">
     </div>
 </div>
+<div class="accueil-labyrinthe">
+    <div class="labyrinthe-texte">
+        <span class="petit-titre">Les voyages ✈️</span>
+        <h3 class="alinea">J'ai toujours aimé voyagé à travers le monde, découvrir de nouvelles cultures et faire de nouvelles connaissances !
+        </h3>
+        <h3 class="alinea">Pays Visités :</h3>
+        <div class="liste-pays">
+            <p><img src="https://flagcdn.com/24x18/ca.png" alt="Canada"> <strong>Canada</strong> (Ontario et Québec)</p>
+            <p><img src="https://flagcdn.com/24x18/us.png" alt="États-Unis"> <strong>États-Unis </strong>(New York et Boston)</p>
+            <p><img src="https://flagcdn.com/24x18/de.png" alt="Allemagne"> <strong>Allemagne </strong>(Munich et Passau)</p>
+            <p><img src="https://flagcdn.com/24x18/it.png" alt="Italie"> <strong>Italie</strong> (Aoste,Bolzano,...)</p>
+            <p><img src="https://flagcdn.com/24x18/nl.png" alt="Pays-Bas"> <strong>Pays-Bas</strong> (Rotterdam)</p>
+            <p><img src="https://flagcdn.com/24x18/mt.png" alt="Malte"> <strong>Malte</strong> (Tout le pays)</p>
+            <p><img src="https://flagcdn.com/24x18/dk.png" alt="Danemark"> <strong>Danemark</strong> (Copenhague)</p>
+            <p><img src="https://flagcdn.com/24x18/es.png" alt="Espagne"> <strong>Espagne</strong> (Barcelone)</p>
+        </div>
+        <img src="image/lesvoyages.png" alt="Image de présentation" class="image-contenu">
+        
+    </div>
+</div>
 <h2> En résumé sur mes centres d'intérêt:</h2>
 <br>
 <h3 class="alinea">Ma vie concilie informatique, jeux vidéos et sport. Ces trois passions m'apportent chacune leur qualité mais aussi me façonnent.
 </h3>
 <br>
-<img src="image/ethan.png" alt="Image de présentation" class="image-passion">
+<img src="image/vie.png" alt="Image de présentation" class="image-passion">
